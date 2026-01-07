@@ -49,7 +49,7 @@ This extension adds an "Export to CSV" button to your OpenAI logs page. When you
 
 You should now see "OpenAI Logs Exporter" in your list of extensions!
 
-![Extension Installed](docs/images/chrome-extension-dev-on.png)
+![Extension Installed](docs/images/chrome-extension-after-unpacking.png)
 
 ## 🎯 How to Use
 
