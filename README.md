@@ -7,6 +7,7 @@ A Chrome extension that exports OpenAI platform logs to CSV format. Automaticall
 This extension adds an "Export to CSV" button to your OpenAI logs page. When you click it, all your conversation logs are downloaded as a CSV file that you can open in Excel, Google Sheets, or any spreadsheet program.
 
 **Features:**
+
 - ✅ Automatically collects logs as you scroll through the page
 - ✅ Keeps track of all logs you've seen (no duplicates!)
 - ✅ Shows you how many logs have been collected
@@ -90,31 +91,35 @@ You should now see "OpenAI Logs Exporter" in your list of extensions!
 
 The CSV file contains 5 columns:
 
-| Column Name | Description | Example |
-|-------------|-------------|---------|
-| **Request ID** | Unique ID for each conversation | `resp_06e17eee3cb8...` |
-| **Input** | What you asked the AI | `"What is photosynthesis?"` |
-| **Output** | What the AI responded | `"Photosynthesis is..."` |
-| **Model** | Which AI model was used | `gpt-4.1-2025-04-14` |
-| **Created** | When the conversation happened | `Jan 6, 3:27 PM` |
+| Column Name    | Description                     | Example                     |
+| -------------- | ------------------------------- | --------------------------- |
+| **Request ID** | Unique ID for each conversation | `resp_06e17eee3cb8...`      |
+| **Input**      | What you asked the AI           | `"What is photosynthesis?"` |
+| **Output**     | What the AI responded           | `"Photosynthesis is..."`    |
+| **Model**      | Which AI model was used         | `gpt-4.1-2025-04-14`        |
+| **Created**    | When the conversation happened  | `Jan 6, 3:27 PM`            |
 
 ## ❓ Troubleshooting
 
 ### The export button doesn't appear
+
 - Make sure you're on the correct page: `https://platform.openai.com/logs`
 - Try refreshing the page (press F5 or Cmd+R)
 - Check that the extension is enabled in `chrome://extensions/`
 
 ### The button says "0 logs"
+
 - Wait a few seconds for logs to load on the page
 - Try scrolling down to see more logs
 - Make sure you have logs in your OpenAI account
 
 ### The CSV file looks weird when I open it
+
 - Make sure you're opening it with a spreadsheet program (Excel, Google Sheets)
 - If using Google Sheets: Go to File → Import → Upload the CSV file
 
 ### I want to export ALL my logs (more than what's showing)
+
 - Scroll down slowly to load more logs
 - Wait for the counter to stop increasing
 - The extension captures all logs as they appear on screen
@@ -122,6 +127,7 @@ The CSV file contains 5 columns:
 ## 🔒 Privacy & Security
 
 **This extension is 100% safe and private:**
+
 - ✅ Only works on the OpenAI logs page
 - ✅ Does NOT send any data to external servers
 - ✅ All processing happens in your browser
@@ -138,15 +144,17 @@ The CSV file contains 5 columns:
 ## 🆘 Need Help?
 
 If you're having trouble:
+
 1. Try the troubleshooting section above
 2. Create an issue on this GitHub repository
 
 ## 🙏 Acknowledgements
 
 This extension was built with:
+
 - **[Claude Code](https://claude.com/claude-code)** - AI-powered coding assistant
 - **[dev-browser](https://github.com/SawyerHood/dev-browser)** by [Sawyer Hood](https://github.com/SawyerHood) - Browser automation tool for development and testing
 
----
+## 👤 Author
 
-Made with ❤️ for the AI community
+[**Sriraam Raja**](https://sriraam.me)
