@@ -135,20 +135,17 @@ The CSV file contains 5 columns:
 - **Check the count**: Make sure the number shown matches what you expect
 - **Keep the CSV file**: Save it somewhere safe for future reference
 
-## 📝 Technical Details
-
-For technical users:
-- Built with vanilla JavaScript (no dependencies)
-- Uses Chrome Extension Manifest V3
-- Collects logs from DOM every 1 second
-- Deduplicates by Request ID using a Map
-- Exports to RFC 4180 compliant CSV format
-
 ## 🆘 Need Help?
 
 If you're having trouble:
 1. Try the troubleshooting section above
 2. Create an issue on this GitHub repository
+
+## 🙏 Acknowledgements
+
+This extension was built with:
+- **[Claude Code](https://claude.com/claude-code)** - AI-powered coding assistant
+- **[dev-browser](https://github.com/SawyerHood/dev-browser)** by [Sawyer Hood](https://github.com/SawyerHood) - Browser automation tool for development and testing
 
 ---
 
