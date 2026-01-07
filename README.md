@@ -1,10 +1,10 @@
 # OpenAI Logs Exporter 📊
 
-A simple Chrome extension that helps you export your OpenAI platform logs to a CSV file. Perfect for students who need to download their AI conversation logs for class assignments!
+A Chrome extension that exports OpenAI platform logs to CSV format. Automatically collects and deduplicates logs as you browse, making it easy to download your conversation history for analysis or backup.
 
 ## ✨ What Does This Do?
 
-This extension adds an "Export to CSV" button to your OpenAI logs page. When you click it, all your conversation logs are downloaded as a spreadsheet file that you can open in Excel, Google Sheets, or any other spreadsheet program.
+This extension adds an "Export to CSV" button to your OpenAI logs page. When you click it, all your conversation logs are downloaded as a CSV file that you can open in Excel, Google Sheets, or any spreadsheet program.
 
 **Features:**
 - ✅ Automatically collects logs as you scroll through the page
@@ -27,14 +27,14 @@ This extension adds an "Export to CSV" button to your OpenAI logs page. When you
 2. In the address bar, type: `chrome://extensions/`
 3. Press Enter
 
-![Chrome Extensions Page](docs/images/chrome-extensions.png)
+![Chrome Extensions Page](docs/images/chrome-extensions-dev-off.png)
 
 ### Step 3: Enable Developer Mode
 
 1. Look for the **"Developer mode"** toggle in the top-right corner
 2. Click it to turn it **ON** (it should turn blue)
 
-![Enable Developer Mode](docs/images/developer-mode.png)
+![Enable Developer Mode](docs/images/chrome-extensions-dev-toggle.png)
 
 ### Step 4: Load the Extension
 
@@ -43,13 +43,13 @@ This extension adds an "Export to CSV" button to your OpenAI logs page. When you
 3. Navigate to the unzipped folder you downloaded in Step 1
 4. Select the folder and click **"Select"** (or "Open")
 
-![Load Unpacked](docs/images/load-unpacked.png)
+![Load Unpacked](docs/images/chrome-extension-load-unpacked.png)
 
 ### Step 5: Verify Installation
 
 You should now see "OpenAI Logs Exporter" in your list of extensions!
 
-![Extension Installed](docs/images/extension-installed.png)
+![Extension Installed](docs/images/chrome-extension-dev-on.png)
 
 ## 🎯 How to Use
 
@@ -59,15 +59,15 @@ You should now see "OpenAI Logs Exporter" in your list of extensions!
 2. Sign in with your OpenAI account if needed
 3. You'll see a green **"Export to CSV"** button appear in the top-right corner
 
-![Export Button](docs/images/export-button.png)
+![Export Button](docs/images/openai-platform-logs-with-export-button.png)
 
 ### Step 2: Browse Your Logs
 
 1. Scroll through the page to load all the logs you want to export
-2. Watch the button update: **"Export to CSV (15 logs)"** → **"Export to CSV (56 logs)"**
+2. Watch the button update as it collects logs
 3. The extension is collecting all the logs you see!
 
-![Log Counter](docs/images/log-counter.png)
+![Log Counter](docs/images/openai-platform-logs-count-increase.png)
 
 > **⚠️ Important:** If you switch to a different project/group in OpenAI, **refresh the page** (F5 or Cmd+R) to reset the log counter. This ensures you're only exporting logs from the current project.
 
@@ -85,8 +85,6 @@ You should now see "OpenAI Logs Exporter" in your list of extensions!
    - **Google Sheets** (Upload the file)
    - **Numbers** (Mac)
    - Or any spreadsheet program
-
-![CSV Output](docs/images/csv-output.png)
 
 ## 📋 What's in the CSV File?
 
@@ -130,23 +128,12 @@ The CSV file contains 5 columns:
 - ✅ Does NOT store any data after you close the page
 - ✅ Open source - you can see exactly what it does
 
-## 👥 For Students in Different Groups
-
-Each student can install this extension on their own computer. You will only see and export the logs that YOU have access to in your OpenAI account. Students in different groups will export different logs based on their group access.
-
 ## 💡 Tips
 
 - **Export regularly**: Download your logs often so you don't lose them
 - **Scroll slowly**: Give the page time to load all logs before exporting
 - **Check the count**: Make sure the number shown matches what you expect
-- **Keep the CSV file**: Save it somewhere safe for your assignment
-
-## 🆘 Need Help?
-
-If you're having trouble:
-1. Try the troubleshooting section above
-2. Ask your instructor or TA
-3. Create an issue on this GitHub repository
+- **Keep the CSV file**: Save it somewhere safe for future reference
 
 ## 📝 Technical Details
 
@@ -157,6 +144,12 @@ For technical users:
 - Deduplicates by Request ID using a Map
 - Exports to RFC 4180 compliant CSV format
 
+## 🆘 Need Help?
+
+If you're having trouble:
+1. Try the troubleshooting section above
+2. Create an issue on this GitHub repository
+
 ---
 
-Made with ❤️ for students learning AI
+Made with ❤️ for the AI community
