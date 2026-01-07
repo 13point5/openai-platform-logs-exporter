@@ -1,0 +1,10 @@
+# Environment files
+.env
+
+# macOS
+.DS_Store
+
+# Chrome extension packaging
+*.zip
+*.crx
+*.pem

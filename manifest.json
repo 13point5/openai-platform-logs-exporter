@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "OpenAI Logs Exporter",
+  "version": "1.0.0",
+  "description": "Export OpenAI platform logs to CSV with request IDs",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://platform.openai.com/logs*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
