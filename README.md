@@ -17,6 +17,14 @@ This extension adds an "Export to CSV" button to your OpenAI logs page. When you
 
 ### Step 1: Download the Extension
 
+**Option A: Direct Download (Easiest)**
+
+1. **[Click here to download the extension](../../raw/main/openai-logs-exporter-v1.0.0.zip)** ⬇️
+2. Once downloaded, **unzip the file** (double-click it on Mac, right-click → Extract on Windows)
+3. Remember where you saved the unzipped folder!
+
+**Option B: Download Entire Repository**
+
 1. Click the green **"Code"** button at the top of this page
 2. Click **"Download ZIP"**
 3. Once downloaded, **unzip the file** (double-click it on Mac, right-click → Extract on Windows)
