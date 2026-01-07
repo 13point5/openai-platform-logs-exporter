@@ -5,6 +5,5 @@
 .DS_Store
 
 # Chrome extension packaging
-*.zip
 *.crx
 *.pem
